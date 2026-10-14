@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="https://editor-oss.bhpressshuzi.cn/etextbook/books/f3003836-2c78-a048-63f1-4ff6cff7b068">
+<!--    <base href="https://etextbook-oss.keledge.com/etextbook/books/73b95aa5-6125-f811-1482-64670dde1071">-->
+    <title>轮播图</title>
+    <link rel="stylesheet" href="/etextbook/public/js/Swiper/swiper.10.3.1.css">
+    <style>
+
+        /* 添加CSS样式 */
+        .swiper {
+            width: 100%;
+            height: 100vh; /* 使用视口高度 */
+            --swiper-pagination-bottom:8px;
+        }
+
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 22px); /* 使用视口高度 */
+
+        }
+
+        .slide-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slide-container-img{
+            height: 100%;
+            min-height: 0;
+        }
+        .slide-container img {
+            max-width: 100%;
+            height: 100%;
+            //max-height: 80vh; /* 给标题留出空间 */
+            object-fit: contain;
+        }
+
+        .slide-caption {
+            padding: 0 10px;
+            text-align: center;
+            font-size: 14px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            height: 38px;
+            min-height: 38px;
+            line-height: 1.4;
+        }
+
+        .swiper-autoheight .swiper-wrapper{
+            height: 100vh;
+        }
+        /* 确保导航按钮在可视区域内 */
+        //.swiper-button-prev, .swiper-button-next {
+        //    color: #000;
+        //    top: 50%;
+        //    transform: translateY(-50%);
+        //}
+    </style>
+</head>
+
+<body>
+<script src="/etextbook/public/js/Swiper/swiper.10.3.1.js"></script>
+    <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+        <div class="swiper-wrapper" id="swiper-wrapper-10fc5101cc0272d610f" aria-live="polite"></div>
+
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+            aria-controls="swiper-wrapper-10fc5101cc0272d610f"></div>
+        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+            aria-controls="swiper-wrapper-10fc5101cc0272d610f"></div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+    </div>
+<!--     @--imgList-- 这个会被正则替换-->
+    <script id="imgList">
+      window.imgList = [{"src":"https://editor-oss.bhpressshuzi.cn/etextbook/books/f3003836-2c78-a048-63f1-4ff6cff7b068/Material/img/2c8853fb-a65e-f39b-4288-9d80f5819b12.png","name":"（a）光动量反馈冷却","id":"693394ec-a5a4-d50a-e722-bd9af8d24f03","size":884918,"addTime":1781083927367},{"src":"https://editor-oss.bhpressshuzi.cn/etextbook/books/f3003836-2c78-a048-63f1-4ff6cff7b068/Material/img/a47b49ce-bde7-ad18-9006-7dabfa432c86.png","name":"（b）参量反馈冷却","id":"95041165-9adc-9811-d1a7-7ba8cc798776","size":879641,"addTime":1781083927367},{"src":"https://editor-oss.bhpressshuzi.cn/etextbook/books/f3003836-2c78-a048-63f1-4ff6cff7b068/Material/img/dd6f7355-b0cc-7267-a671-a03721c13469.png","name":"（c）静电力反馈冷却","id":"982fd30e-fe92-0caf-ca7a-f0e6ec789b9b","size":593435,"addTime":1781083927367},{"src":"https://editor-oss.bhpressshuzi.cn/etextbook/books/f3003836-2c78-a048-63f1-4ff6cff7b068/Material/img/fe1c8c28-71e8-c5c2-fe98-ebda03ebac92.png","name":"（d）光腔反馈冷却","id":"2d0b07ee-5cd4-edf3-4357-fc213872a9aa","size":245018,"addTime":1781083927367}];
+
+      // window.imgList = [{"src":"https://etextbook-oss.keledge.com/etextbook/books/73b95aa5-6125-f811-1482-64670dde1071/Material/img/c4e5dae6-1eb3-a6b7-f831-2c13d56274ef.png","name":"勾.png","id":"3c656ffc-3d69-e59d-6e6e-8054d16809b2","size":6878,"addTime":1749460308800},{"src":"https://etextbook-oss.keledge.com/etextbook/books/73b95aa5-6125-f811-1482-64670dde1071/Material/img/3a0cd0d1-2a5c-89e3-4b5c-a83f562a07bb.png","name":"封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png封面.png","id":"bff6ba9b-d78f-c7c0-046a-adc26f8e3dfa","size":48046,"addTime":1749460308800}];
+
+    </script>
+    <script>
+
+      onload = function () {
+        var swiperWrapper = document.getElementById("swiper-wrapper-10fc5101cc0272d610f");
+
+        // 先清空现有内容
+        swiperWrapper.innerHTML = '';
+
+        for (var i = 0; i < window.imgList.length; i++) {
+          var item = window.imgList[i];
+          var swiperSlide = document.createElement("div");
+          swiperSlide.className = "swiper-slide";
+
+          // 这块要改成图片一屏展示，宽度自适应，高度根据屏幕高度来适配
+          var ele = `
+                 <div class="slide-container">
+                    <div class="slide-container-img">
+                        <img src="${item.src}" alt="${item.name}">
+                    </div>
+
+                    <div class="slide-caption">${item.name}</div>
+                </div>
+            `;
+
+          swiperSlide.innerHTML = ele;
+          swiperWrapper.appendChild(swiperSlide);
+        }
+
+
+        var mySwiper = new Swiper(".swiper", {
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination"
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+          },
+          // 添加自适应参数
+          slidesPerView: 1,
+          spaceBetween: 20,
+          // autoHeight: true,
+          breakpoints: {
+            // 当屏幕宽度 >= 768px 时的配置
+            768: {
+              slidesPerView: 1,
+              spaceBetween: 30
+            }
+          },
+          on: {
+            init: function() {
+            },
+            slideChange: function(e) {
+            },
+            activeIndexChange: function(e) {
+              mySwiper.updateSize()
+            },
+
+          }
+        });
+
+        // 窗口大小改变时重新计算
+        window.addEventListener('resize', function() {
+          mySwiper.update();
+        });
+      };
+    </script>
+</body>
+
+</html>

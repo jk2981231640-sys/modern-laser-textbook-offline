@@ -1,0 +1,4195 @@
+/* 章节标题样式 - 提取自 tile.css */
+
+/* ===== CSS 变量 ===== */
+:root {
+    --font_size_38px: 38px;
+    --font_size_36px: 36px;
+    --font_size_34px: 34px;
+    --font_size_32px: 32px;
+    --font_size_30px: 30px;
+    --font_size_28px: 28px;
+    --font_size_26px: 26px;
+    --font_size_24px: 24px;
+    --font_size_22px: 22px;
+    --font_size_20px: 20px;
+    --font_size_18px: 18px;
+    --font_size_16px: 16px;
+    --font_size_14px: 14px;
+    --font_size_12px: 12px;
+    --font_size_10px: 10px;
+}
+
+/* 章节标题样式 - 提取自 tile.css */
+
+/* ===== 标题通用样式 ===== */
+.beihang-jg-level-title {
+    font-family: 'Microsoft YaHei', "微软雅黑", sans-serif;
+    line-height: 1.5;
+}
+
+.beihang-jg-level-title p {
+    margin: 0;
+}
+
+/* 标题类取消首行缩进 */
+.beihang-jg-level-title p[data-title-main],
+.beihang-jg-level-title p[data-title-sub] {
+    text-indent: 0;
+}
+
+
+div.beihang-jg-levell1 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 160px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #3481d6 0%, #37bffa 76%);
+    color: #fff;
+    font-size: var(--font_size_28px);
+}
+
+div.beihang-jg-levell1::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题.png");
+}
+
+div.beihang-jg-levell1>p {
+    padding: 22px 20px 20px 0;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/level5.2.png");
+}
+
+
+
+
+div.beihang-jg-levell2 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 160px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #3481d6 0%, #37bffa 76%);
+    color: #fff;
+    font-size: var(--font_size_28px);
+}
+
+div.beihang-jg-levell2::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题2.png");
+}
+
+div.beihang-jg-levell2>p {
+    padding: 22px 20px 20px 0;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/level5.2.png");
+}
+
+
+
+
+
+div.beihang-jg-levell3 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 160px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #3481d6 0%, #37bffa 76%);
+    color: #fff;
+    font-size: var(--font_size_28px);
+}
+
+div.beihang-jg-levell3::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题3.png");
+}
+
+div.beihang-jg-levell3>p {
+    padding: 22px 20px 20px 0;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/level5.2.png");
+}
+
+
+
+
+div.beihang-jg-levell4 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 160px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #3481d6 0%, #37bffa 76%);
+    color: #fff;
+    font-size: var(--font_size_28px);
+}
+
+div.beihang-jg-levell4::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题4.png");
+}
+
+div.beihang-jg-levell4>p {
+    padding: 22px 20px 20px 0;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/level5.2.png");
+}
+
+
+
+div.beihang-jg-levell5 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 160px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #3481d6 0%, #37bffa 76%);
+    color: #fff;
+    font-size: var(--font_size_28px);
+}
+
+div.beihang-jg-levell5::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题5.png");
+}
+
+div.beihang-jg-levell5>p {
+    padding: 22px 20px 20px 0;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/level5.2.png");
+}
+
+div.beihang-jg-levell6 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 160px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #3481d6 0%, #37bffa 76%);
+    color: #fff;
+    font-size: var(--font_size_28px);
+}
+
+div.beihang-jg-levell6::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题6.png");
+}
+
+div.beihang-jg-levell6>p {
+    padding: 22px 20px 20px 0;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/level5.2.png");
+}
+
+div.beihang-jg-custom21 {
+    font-size: clamp(1.3rem, 3.2vw, 1.9rem);
+    margin: 0.5rem 0 1rem 0;
+    padding: 0px 0px 0px 80px;
+    color: #2563eb;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+}
+
+div.beihang-jg-custom21::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    background: url('/etextbook/users/161/dynamic_html/image/二级目录.png') no-repeat center bottom;
+    background-size: contain;
+    z-index: 1;
+}
+
+div.beihang-jg-custom21::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #93c5fd 0%, #3b82f6 10%, #93c5fd 60%, #bfdbfe 100%);
+    border-radius: 1px;
+}
+
+
+
+div.beihang-jg-custom22 {
+    font-size: clamp(1.3rem, 3.2vw, 1.9rem);
+    margin: 0.5rem 0 1rem 0;
+    padding: 0px 0px 0px 80px;
+    color: #2563eb;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+}
+
+div.beihang-jg-custom22::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    background: url('/etextbook/users/161/dynamic_html/image/二级目录1.png') no-repeat center bottom;
+    background-size: contain;
+    z-index: 1;
+}
+
+div.beihang-jg-custom22::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #93c5fd 0%, #3b82f6 10%, #93c5fd 60%, #bfdbfe 100%);
+    border-radius: 1px;
+}
+
+
+
+div.beihang-jg-custom23 {
+    font-size: clamp(1.3rem, 3.2vw, 1.9rem);
+    margin: 0.5rem 0 1rem 0;
+    padding: 0px 0px 0px 80px;
+    color: #2563eb;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+}
+
+div.beihang-jg-custom23::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    background: url('/etextbook/users/161/dynamic_html/image/二级目录2.png') no-repeat center bottom;
+    background-size: contain;
+    z-index: 1;
+}
+
+div.beihang-jg-custom23::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #93c5fd 0%, #3b82f6 10%, #93c5fd 60%, #bfdbfe 100%);
+    border-radius: 1px;
+}
+
+
+
+/* ===== custom8 - 三级标题（带图标） ===== */
+div.beihang-jg-customl31 {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/三级目录1.png");
+    background-size: contain;  /* 或 auto 40px 控制大小 */
+    color: #384a9d;
+    font-size: var(--font_size_20px);
+}
+
+div.beihang-jg-customl31>p.img {
+    margin: 0;
+}
+
+div.beihang-jg-customl31>p img {
+    width: 40px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/* ===== level11 - 三级标题（带竖线装饰） ===== */
+div.beihang-jg-customl32 {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/三级目录1.png");
+    background-size: contain;  /* 或 auto 40px 控制大小 */
+    color: #3A83F4;
+    font-size: var(--font_size_20px);
+}
+
+
+/* ===== level8 - 四级标题（带底部图标和装饰线） ===== */
+div.beihang-jg-level42 {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 16px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/四级目录1.png");
+    background-size: contain;  /* 或 auto 40px 控制大小 */
+    color: #3A83F4;
+    font-size: var(--font_size_18px);
+}
+
+div.beihang-jg-level42:before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 45px;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #3983f4 0%, rgba(57, 131, 244, 0) 100%);
+}
+
+/* ===== level12 - 四级标题（带底部图标） ===== */
+div.beihang-jg-level41 {
+    display: inline-block;
+    padding: 10px 20px 6px 52px;
+    box-shadow: 0 -2px 0 #83acd5 inset;
+    background-image: url("/etextbook/users/161/dynamic_html/image/四级目录.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: auto 37px;
+    color: #4E8CC4;
+    font-size: var(--font_size_18px);
+}
+
+/* ===== 响应式样式 ===== */
+@media screen and (max-width: 768px) {
+    div.beihang-jg-level5 {
+        padding-left: 100px;
+    }
+
+    div.beihang-jg-level5 p {
+        padding: 14px 20px 12px 0;
+        background-size: 30%;
+    }
+
+    div.beihang-jg-level5::before {
+        width: 96px;
+        height: 76px;
+    }
+
+    div.beihang-jg-custom2 {
+        width: 100%;
+        padding-left: 92px;
+        min-height: 75px;
+        background-size: auto 100%;
+        background-position: 20px;
+    }
+
+    div.beihang-jg-custom2>p[data-title-main] {
+        padding-left: 30px;
+    }
+
+    div.beihang-jg-level8 {
+        padding-left: 40px;
+        background-size: auto 30px;
+    }
+
+    div.beihang-jg-level12 {
+        background-size: auto 0.8rem;
+        padding: 0.2rem 0.3rem 0.15rem 1.1rem;
+    }
+
+    div.beihang-jg-level11>p {
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div.beihang-jg-level5 {
+        padding-left: 80px;
+    }
+
+    div.beihang-jg-level5::before {
+        width: 75px;
+        height: 60px;
+    }
+
+    div.beihang-jg-custom2 {
+        padding-left: 70px;
+    }
+
+    div.beihang-jg-custom2>p[data-title-main]::after {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+
+/* ===== 标题通用样式 ===== */
+.level-title {
+    font-family: 'Microsoft YaHei', "微软雅黑", sans-serif;
+    line-height: 1.5;
+}
+
+.level-title p {
+    margin: 0;
+}
+
+/* 标题类取消首行缩进 */
+.level-title p[data-title-main],
+.level-title p[data-title-sub] {
+    text-indent: 0;
+}
+
+
+div.levell1 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 120px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #3481d6 0%, #37bffa 76%);
+    color: #fff;
+    font-size: var(--font_size_28px);
+}
+
+div.levell1::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题.png");
+}
+
+div.levell1>p {
+    padding: 22px 20px 20px 0;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/level5.2.png");
+}
+
+
+
+
+div.levell2 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 120px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #3481d6 0%, #37bffa 76%);
+    color: #fff;
+    font-size: var(--font_size_28px);
+}
+
+div.levell2::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题2.png");
+}
+
+div.levell2>p {
+    padding: 22px 20px 20px 0;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/level5.2.png");
+}
+
+
+
+
+div.levell3 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 120px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #3481d6 0%, #37bffa 76%);
+    color: #fff;
+    font-size: var(--font_size_28px);
+}
+
+div.levell3::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题3.png");
+}
+
+div.levell3>p {
+    padding: 22px 20px 20px 0;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/level5.2.png");
+}
+
+
+div.levell4 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 160px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #3481d6 0%, #37bffa 76%);
+    color: #fff;
+    font-size: var(--font_size_28px);
+}
+
+
+div.levell4::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题4.png");
+}
+
+div.levell4>p {
+    padding: 22px 20px 20px 0;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/level5.2.png");
+}
+
+
+div.levell5 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 120px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #3481d6 0%, #37bffa 76%);
+    color: #fff;
+    font-size: var(--font_size_28px);
+}
+
+
+div.levell5::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题5.png");
+}
+
+div.levell5>p {
+    padding: 22px 20px 20px 0;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/level5.2.png");
+}
+
+
+
+
+
+div.levell6 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 120px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #3481d6 0%, #37bffa 76%);
+    color: #fff;
+    font-size: var(--font_size_28px);
+}
+
+
+div.levell6::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题6.png");
+}
+
+div.levell6>p {
+    padding: 22px 20px 20px 0;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/level5.2.png");
+}
+
+
+
+div.levell11 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 120px;
+    margin: 10px 0;
+    /* background: linear-gradient(to right, #3481d6 0%, #37bffa 76%); */
+    color: #000;
+    font-size: var(--font_size_28px);
+}
+
+div.levell11::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题.png");
+}
+
+
+
+
+
+div.levell22 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 120px;
+    margin: 10px 0;
+    /* background: linear-gradient(to right, #3481d6 0%, #37bffa 76%); */
+    color: #000;
+    font-size: var(--font_size_28px);
+}
+
+div.levell22::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题2.png");
+}
+
+
+
+
+
+
+div.levell33 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 120px;
+    margin: 10px 0;
+    /* background: linear-gradient(to right, #3481d6 0%, #37bffa 76%); */
+    color: #000;
+    font-size: var(--font_size_28px);
+}
+
+div.levell33::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题3.png");
+}
+
+
+
+
+
+div.levell44 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 120px;
+    margin: 10px 0;
+    /* background: linear-gradient(to right, #3481d6 0%, #37bffa 76%); */
+    color: #000;
+    font-size: var(--font_size_28px);
+}
+
+div.levell44::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 100px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题4.png");
+}
+
+
+
+div.levell55 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 120px;
+    margin: 10px 0;
+    /* background: linear-gradient(to right, #3481d6 0%, #37bffa 76%); */
+    color: #000;
+    font-size: var(--font_size_28px);
+}
+
+div.levell55::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题5.png");
+}
+
+
+
+div.levell66 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 120px;
+    margin: 10px 0;
+    background: linear-gradient(10deg, #93c5fd 0%, #3b82f6 10%, #93c5fd 60%, #bfdbfe 100%);
+    color: #000;
+    font-size: var(--font_size_28px);
+}
+
+div.levell66::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题6.png");
+}
+
+
+div.custom21 {
+    font-size: clamp(1.3rem, 3.2vw, 1.9rem);
+    margin: 0.5rem 0 1rem 0;
+    padding: 0px 0px 0px 80px;
+    color: #2563eb;
+    font-weight: 300;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+}
+
+div.custom21::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    background: url("/etextbook/users/161/dynamic_html/image/二级目录.png") no-repeat center bottom;
+    background-size: contain;
+    z-index: 1;
+}
+
+div.custom21::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #93c5fd 0%, #3b82f6 10%, #93c5fd 60%, #bfdbfe 100%);
+    border-radius: 1px;
+}
+
+
+
+div.custom22 {
+    font-size: clamp(1.3rem, 3.2vw, 1.9rem);
+    margin: 0.5rem 0 1rem 0;
+    padding: 0px 0px 0px 80px;
+    color: #2563eb;
+    font-weight: 300;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+}
+
+div.custom22::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    background: url('/etextbook/users/161/dynamic_html/image/二级目录1.png') no-repeat center bottom;
+    background-size: contain;
+    z-index: 1;
+}
+
+div.custom22::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #93c5fd 0%, #3b82f6 10%, #93c5fd 60%, #bfdbfe 100%);
+    border-radius: 1px;
+}
+
+
+
+div.custom23 {
+    font-size: clamp(1.3rem, 3.2vw, 1.9rem);
+    margin: 0.5rem 0 1rem 0;
+    padding: 0px 0px 0px 80px;
+    color: #2563eb;
+    font-weight: 300;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+}
+
+div.custom23::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    background: url('/etextbook/users/161/dynamic_html/image/二级目录2.png') no-repeat center bottom;
+    background-size: contain;
+    z-index: 1;
+}
+
+div.custom23::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #93c5fd 0%, #3b82f6 10%, #93c5fd 60%, #bfdbfe 100%);
+    border-radius: 1px;
+}
+
+
+
+/* ===== custom8 - 三级标题（带图标） ===== */
+div.customl31 {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/三级目录1.png");
+    background-size: contain;  /* 或 auto 40px 控制大小 */
+    color: #384a9d;
+    font-size: var(--font_size_20px);
+}
+
+div.customl31>p.img {
+    margin: 0;
+}
+
+div.customl31>p img {
+    width: 40px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/* ===== level11 - 三级标题（带竖线装饰） ===== */
+div.customl32 {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/二级目录2.png");
+    background-size: contain;  /* 或 auto 40px 控制大小 */
+    color: #3A83F4;
+    font-size: var(--font_size_20px);
+}
+
+
+/* ===== level8 - 四级标题（带底部图标和装饰线） ===== */
+div.level42 {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 16px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-image: url("/etextbook/users/161/dynamic_html/image/四级目录1.png");
+    background-size: contain;  /* 或 auto 40px 控制大小 */
+    color: #3A83F4;
+    font-size: var(--font_size_18px);
+}
+
+div.level42:before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 45px;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #3983f4 0%, rgba(57, 131, 244, 0) 100%);
+}
+
+/* ===== level12 - 四级标题（带底部图标） ===== */
+div.level41 {
+    display: inline-block;
+    padding: 10px 20px 6px 52px;
+    /* box-shadow: 0 -2px 0 #83acd5 inset; */
+    background-image: url("/etextbook/users/161/dynamic_html/image/四级目录.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: auto 37px;
+    color: #4E8CC4;
+    font-size: var(--font_size_18px);
+}
+/* xx / 46.875*/
+:root {
+    --font_size_38px: 38px;
+    --font_size_36px: 36px;
+    --font_size_34px: 34px;
+    --font_size_32px: 32px;
+    --font_size_30px: 30px;
+    --font_size_28px: 28px;
+    --font_size_26px: 26px;
+    --font_size_24px: 24px;
+    --font_size_22px: 22px;
+    --font_size_20px: 20px;
+    --font_size_18px: 18px;
+    --font_size_16px: 16px;
+    --font_size_14px: 14px;
+    --font_size_12px: 12px;
+    --font_size_10px: 10px;
+}
+
+#phoneReaderBox  {
+    --font_size_38px: 0.811rem;
+    --font_size_36px: 0.768rem;
+    --font_size_34px: 0.725rem;
+    --font_size_32px: 0.683rem;
+    --font_size_30px: 0.640rem;
+    --font_size_28px: 0.597rem;
+    --font_size_26px: 0.555rem;
+    --font_size_24px: 0.512rem;
+    --font_size_22px: 0.469rem;
+    --font_size_20px: 0.427rem;
+    --font_size_18px: 0.384rem;
+    --font_size_16px: 0.341rem;
+    --font_size_14px: 0.299rem;
+    --font_size_12px: 0.25rem;
+    --font_size_10px: 0.213rem;
+}
+
+body {
+    box-sizing: content-box;
+    background-color: var(--theme-background-color);
+}
+
+table td p,
+table th p,
+.articleContent table td p,
+.articleContent table th p {
+    text-indent: 0;
+    /*被全局body p样式影响了 2025年06月27日 liuzheng*/
+    text-align: inherit;
+}
+
+ul:not(table ul),
+ol:not(table ol) {
+    padding-inline-start: 0;
+    list-style-position: outside !important;
+}
+
+.circle-number-char {
+    font-family: "Noto Sans Symbols",sans-serif !important;
+}
+
+.card-mode-content {
+    text-align: left;
+}
+
+/*视频设置的字号，预览页最多显示2行，超出...显示. 2025年04月17日17:00:32 liuzheng*/
+.card-mode-content > div,.card-mode-content > div[data-name]{
+    line-height: 1;
+    flex: 1;
+    font-size: var(--font_size_16px);
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    padding-right: 5vw;
+}
+.card-mode-content .card-mode-name >div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+}
+
+/* 这块会导致左右无法对齐 25/9/15 */
+/*div .articleContent p {*/
+/*    text-align: inherit;*/
+/*}*/
+
+/*标题类取消首行缩进*/
+.articleContent p[data-title-main],
+.articleContent p[data-title-sub],
+p[data-title-main],
+p[data-title-sub] {
+    text-indent: 0;
+}
+
+p>img {
+    vertical-align: middle;
+}
+
+.mce-content-body>p>span>img {
+    vertical-align: middle;
+}
+
+.mce-object-video {
+    max-width: 100%;
+}
+
+video {
+    object-fit: fill;
+    max-width: 100%;
+}
+
+.lineheight,
+.h1,
+div.level1,
+div.level5,
+div.level9,
+div.level90,
+div.level9a,
+div.level9b,
+div.level9c,
+div.level9d,
+div.level9e,
+div.custom1,
+div.custom7,
+.h2,
+div.level2,
+div.level6,
+div.level10,
+div.custom2,
+div.custom6,
+.h3,
+div.level3,
+div.level7,
+div.level11,
+div.custom8,
+.h4,
+div.level4,
+div.level8,
+div.level12 {
+    font-family: 'Microsoft YaHei', "微软雅黑";
+    line-height: 1.5;
+}
+
+.h1 p,
+div.level1 p,
+div.level5 p,
+div.level9 p,
+div.level90 p,
+div.level9a p,
+div.level9b p,
+div.level9c p,
+div.level9d p,
+div.level9e p,
+div.custom1 p,
+div.custom7 p,
+.h2 p,
+div.level2 p,
+div.level6 p,
+div.level10 p,
+div.custom2 p,
+div.custom6 p,
+.h3 p,
+div.level3 p,
+div.level7 p,
+div.level11 p,
+div.custom8 p,
+.h4 p,
+div.level4 p,
+div.level8 p,
+div.level12 p,
+.h5 p,
+div.custom410 p,
+div.custom411 p,
+div.custom412 p,
+div.custom511 p,
+.importzip p {
+    margin: 0;
+}
+
+.h1,
+div.level1,
+div.level5,
+div.level9,
+div.level90,
+div.level9a,
+div.level9b,
+div.level9c,
+div.level9d,
+div.level9e,
+div.custom1,
+div.custom7 {
+    font-size: var(--font_size_28px);
+}
+
+.h2,
+div.level2,
+div.level6,
+div.level10,
+div.custom2,
+div.custom6 {
+    font-size: var(--font_size_24px);
+}
+
+.h3,
+div.level1,
+div.level3,
+div.level7,
+div.level11,
+div.custom8 {
+    font-size: var(--font_size_20px);
+}
+
+.h4,
+div.level4,
+div.level8,
+div.level12 {
+    font-size: var(--font_size_18px);
+}
+
+.h5,
+div.custom410,
+div.custom411,
+div.custom412,
+div.custom511 {
+    font-size: var(--font_size_16px);
+    font-family: "宋体";
+    line-height: 2;
+}
+
+div.level1 {
+    box-sizing: border-box;
+    padding: 40px 26px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h1_cover1.png"), linear-gradient(to right, #dee9fc 24%, #f5f9ff 50%, #e4edff 100%);
+    color: #333333;
+    background-size: 100% 100%;
+}
+
+div.level1>p {
+    text-align: center;
+}
+
+div.level1>p[data-title-main] {
+    color: #0471e0;
+    font-family: 'Microsoft YaHei', "微软雅黑";
+    font-size: var(--font_size_28px);
+    font-weight: bold;
+}
+
+div.level1>p[data-title-sub] {
+    margin-top: 26px;
+    text-indent: 0;
+}
+
+div.level2 {
+    padding: 24px 16px;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h2_cover1.png");
+}
+
+div.level2>p {
+    color: #056dd7;
+    font-family: 'Microsoft YaHei', "微软雅黑";
+    font-weight: bold;
+    text-align: center;
+}
+
+div.level3 {
+    display: inline-block;
+    position: relative;
+    margin: 6px 0px;
+    padding: 4px 30px 4px 70px;
+    background-color: #317bf7;
+    border-radius: 30px;
+    word-break: break-all;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+}
+
+div.level3>p.img {
+    position: absolute;
+    box-sizing: border-box;
+    /*top: -6px;*/
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ffffff;
+    width: 51px;
+    height: 51px;
+}
+
+div.level3 img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.level3>p[data-title-main] {
+    line-height: 1.5;
+}
+
+div.level4 {
+    padding: 14px !important;
+}
+
+div.level4>p {
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 20px;
+    color: #0471e0;
+    font-weight: bold;
+}
+
+div.level4>p::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    left: -4px;
+    background-color: #0471e0;
+}
+
+div.level5 {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 160px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #3481d6 0%, #37bffa 76%);
+    color: #fff;
+}
+
+div.level5::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    content: '';
+    width: 147px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level5.1.png");
+}
+
+div.level5>p {
+    padding: 22px 20px 20px 0;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level5.2.png");
+}
+
+div.level6 {
+    position: relative;
+    display: inline-block;
+    padding: 12px 0;
+    margin-right: 40px;
+    color: #fff;
+}
+
+div.level6>p {
+    position: relative;
+    z-index: 1;
+    padding: 10px 50px 10px 80px;
+}
+
+div.level6>p::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 74px;
+    height: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level6.png");
+}
+
+div.level6::after,
+div.level6::before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+}
+
+div.level6::before {
+    border-top: 1px solid #1a8dfa;
+    border-right: 1px solid #1a8dfa;
+    top: 6px;
+    left: 34px;
+    right: -6px;
+    -webkit-transform: skewX(-30deg);
+}
+
+div.level6::after {
+    top: 10px;
+    right: 0;
+    left: 34px;
+    -webkit-transform: skewX(-30deg);
+    background: linear-gradient(56deg, #1a8dfa 0%, #96dfff 80%, #1a8dfa 100%);
+}
+
+div.level7 {
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+}
+
+div.level7>p[data-title-main] {
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 24px 24px 8px 40px;
+    border-radius: 10px;
+    box-shadow: 0 -4px 6px #6ea9fe inset;
+    background: linear-gradient(to bottom, #f6fbfd 0%, #ebf3fa 50%, #dfebf6 51%, #c2d5ed 100%);
+    color: #3A83F4;
+    font-weight: bold;
+}
+
+div.level7>p[data-title-sub] {
+    position: absolute;
+    top: -8px;
+    left: -2px;
+    padding: 0 32px 0 8px;
+    max-width: 112px;
+    line-height: 1.8;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level7.png");
+    color: #fff;
+    font-size: var(--font_size_18px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.level8 {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 16px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level8.png");
+    color: #3A83F4;
+}
+
+div.level8::before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 38px;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #3983f4 0%, rgba(57, 131, 244, 0) 100%);
+}
+
+div.level9 {
+    position: relative;
+    padding: 27px 0 26px 30px;
+    color: #4E8CC4;
+}
+
+div.level9::before,
+div.level9::after {
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+div.level9::before {
+    left: 0;
+    bottom: -12px;
+    width: 108px;
+    height: 104px;
+    z-index: 2;
+    background-position: left bottom;
+    background-size: 100% auto;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题6.png");
+}
+
+div.level9::after {
+    right: 0;
+    bottom: -12px;
+    width: 68px;
+    height: 82px;
+    background-position: right bottom;
+    background-size: 100% auto;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.2.png");
+}
+
+div.level9>p {
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-weight: 800;
+
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: left center;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.3.png");
+}
+
+div.level9>p::before,
+div.level9>p::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: '';
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+div.level9>p::before {
+    top: -27px;
+    height: 27px;
+    background-position: center top;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.4.png");
+}
+
+div.level9>p::after {
+    bottom: -26px;
+    height: 26px;
+    background-position: center bottom;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.5.png");
+}
+
+
+
+
+
+
+
+
+
+div.level9a {
+    position: relative;
+    padding: 27px 0 26px 30px;
+    color: #4E8CC4;
+}
+
+div.level9a::before,
+div.level9a::after {
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+div.level9a::before {
+    left: 0;
+    bottom: -12px;
+    width: 108px;
+    height: 104px;
+    z-index: 2;
+    background-position: left bottom;
+    background-size: 100% auto;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题.png");
+}
+
+div.level9a::after {
+    right: 0;
+    bottom: -12px;
+    width: 68px;
+    height: 82px;
+    background-position: right bottom;
+    background-size: 100% auto;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.2.png");
+}
+
+div.level9a>p {
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-weight: 800;
+
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: left center;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.3.png");
+}
+
+div.level9a>p::before,
+div.level9a>p::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: '';
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+div.level9a>p::before {
+    top: -27px;
+    height: 27px;
+    background-position: center top;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.4.png");
+}
+
+div.level9a>p::after {
+    bottom: -26px;
+    height: 26px;
+    background-position: center bottom;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.5.png");
+}
+
+
+
+
+
+
+div.level90 {
+    position: relative;
+    padding: 27px 0 26px 30px;
+    color: #4E8CC4;
+}
+
+div.level90::before,
+div.level90.bubble2::after {
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+
+div.level90::before {
+    left: 0;
+    bottom: -12px;
+    width: 108px;
+    height: 104px;
+    z-index: 2;
+    background-position: left bottom;
+    background-size: 100% auto;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题2.png");
+}
+
+div.level90::after {
+    right: 0;
+    bottom: -12px;
+    width: 68px;
+    height: 82px;
+    background-position: right bottom;
+    background-size: 100% auto;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.2.png");
+}
+
+div.level90>p {
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-weight: 800;
+
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: left center;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.3.png");
+}
+
+div.level90>p::before,
+div.level90>p::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: '';
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+div.level90>p::before {
+    top: -27px;
+    height: 27px;
+    background-position: center top;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.4.png");
+}
+
+div.level90>p::after {
+    bottom: -26px;
+    height: 26px;
+    background-position: center bottom;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.5.png");
+}
+
+
+div.level9b {
+    position: relative;
+    padding: 27px 0 26px 30px;
+    color: #4E8CC4;
+}
+
+div.level9b::before,
+div.level9b::after {
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+
+div.level9b::before {
+    left: 0;
+    bottom: -12px;
+    width: 108px;
+    height: 104px;
+    z-index: 2;
+    background-position: left bottom;
+    background-size: 100% auto;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题3.png");
+}
+
+div.level9b::after {
+    right: 0;
+    bottom: -12px;
+    width: 68px;
+    height: 82px;
+    background-position: right bottom;
+    background-size: 100% auto;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.2.png");
+}
+
+div.level9b>p {
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-weight: 800;
+
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: left center;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.3.png");
+}
+
+div.level9b>p::before,
+div.level9b>p::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: '';
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+div.level9b>p::before {
+    top: -27px;
+    height: 27px;
+    background-position: center top;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.4.png");
+}
+
+div.level9b>p::after {
+    bottom: -26px;
+    height: 26px;
+    background-position: center bottom;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.5.png");
+}
+
+
+
+div.level9c {
+    position: relative;
+    padding: 27px 0 26px 30px;
+    color: #4E8CC4;
+}
+
+div.level9c::before,
+div.level9c::after {
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+div.level9c::before {
+    left: 0;
+    bottom: -12px;
+    width: 108px;
+    height: 104px;
+    z-index: 2;
+    background-position: left bottom;
+    background-size: 100% auto;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题4.png");
+}
+
+div.level9c::after {
+    right: 0;
+    bottom: -12px;
+    width: 68px;
+    height: 82px;
+    background-position: right bottom;
+    background-size: 100% auto;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.2.png");
+}
+
+div.level9c>p {
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-weight: 800;
+
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: left center;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.3.png");
+}
+
+div.level9c>p::before,
+div.level9c>p::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: '';
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+div.level9c>p::before {
+    top: -27px;
+    height: 27px;
+    background-position: center top;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.4.png");
+}
+
+div.level9c>p::after {
+    bottom: -26px;
+    height: 26px;
+    background-position: center bottom;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.5.png");
+}
+
+
+
+
+div.level9d {
+    position: relative;
+    padding: 27px 0 26px 30px;
+    color: #4E8CC4;
+}
+
+div.level9d::before,
+div.level9d::after {
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+div.level9d::before {
+    left: 0;
+    bottom: -12px;
+    width: 108px;
+    height: 104px;
+    z-index: 2;
+    background-position: left bottom;
+    background-size: 100% auto;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题5.png");
+}
+
+div.level9d::after {
+    right: 0;
+    bottom: -12px;
+    width: 68px;
+    height: 82px;
+    background-position: right bottom;
+    background-size: 100% auto;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.2.png");
+}
+
+div.level9d>p {
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-weight: 800;
+
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: left center;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.3.png");
+}
+
+div.level9d>p::before,
+div.level9d>p::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: '';
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+div.level9d>p::before {
+    top: -27px;
+    height: 27px;
+    background-position: center top;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.4.png");
+}
+
+div.level9d>p::after {
+    bottom: -26px;
+    height: 26px;
+    background-position: center bottom;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.5.png");
+}
+
+div.level9e {
+    position: relative;
+    padding: 27px 0 26px 30px;
+    color: #4E8CC4;
+}
+
+div.level9e::before,
+div.level9e::after {
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+
+div.level9e::before {
+    left: 0;
+    bottom: -12px;
+    width: 108px;
+    height: 104px;
+    z-index: 2;
+    background-position: left bottom;
+    background-size: 100% auto;
+    background-image: url("/etextbook/users/161/dynamic_html/image/一级标题6.png");
+}
+
+div.level9e::after {
+    right: 0;
+    bottom: -12px;
+    width: 68px;
+    height: 82px;
+    background-position: right bottom;
+    background-size: 100% auto;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.2.png");
+}
+
+div.level9e>p {
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-weight: 800;
+
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: left center;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.3.png");
+}
+
+div.level9e>p::before,
+div.level9e>p::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: '';
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+div.level9e>p::before {
+    top: -27px;
+    height: 27px;
+    background-position: center top;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.4.png");
+}
+
+div.level9e>p::after {
+    bottom: -26px;
+    height: 26px;
+    background-position: center bottom;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level9.5.png");
+}
+
+
+
+
+div.level10 {
+    box-sizing: border-box;
+    position: relative;
+    width: 60%;
+    margin: 22px auto 0;
+    padding: 10px 20px;
+    border: 2px solid #4E8CC4;
+}
+
+div.level10>p[data-title-main] {
+    position: relative;
+    z-index: 2;
+    padding: 10px 0;
+    padding-right: 20px;
+    color: #4E8CC4;
+    line-height: 1.5;
+}
+
+div.level10>p[data-title-sub] {
+    position: absolute;
+    top: -24px;
+    left: -2px;
+    /* display: flex; */
+    align-items: center;
+    max-width: 384px;
+    height: 42px;
+    padding-left: 8px;
+    padding-right: 30px;
+    line-height: 2.5;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/矩形-1.1.png");
+    background-color: #4E8CC4;
+    color: #fff;
+    font-size: var(--font_size_16px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.level10::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 24px;
+    height: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/矩形-1.2.png");
+}
+
+div.level11 {
+    box-sizing: border-box;
+    min-height: 48px;
+    color: #4E8CC4;
+}
+
+div.level11>p {
+    padding-left: 30px;
+    background: linear-gradient(to right, transparent 0, #5490c6 3px, transparent 5px, #5490c6 12px, #5490c6 16px, transparent 16px, #5490c6 22px, transparent 22px);
+}
+
+div.level12 {
+    display: inline-block;
+    padding: 10px 20px 6px 52px;
+    box-shadow: 0 -2px 0 #83acd5 inset;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/level12.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: auto 37px;
+    color: #4E8CC4;
+}
+
+#phoneReaderBox div.level12 {
+    background-size: auto 0.8rem;
+    padding: 0.2rem 0.3rem 0.15rem 1.1rem;
+}
+
+div.custom1 {
+    box-sizing: border-box;
+    padding: 88px 30px 36px 32%;
+    background-repeat: no-repeat;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h1_custom1.png");
+    background-size: 100% 100%;
+    text-align: left;
+}
+
+div.custom1>p {
+    color: #384a9d;
+    font-weight: normal;
+    text-align: left;
+    line-height: 1.5;
+}
+
+div.custom1>p[data-title-main] {
+    margin-bottom: 14px;
+}
+
+div.custom2 {
+    box-sizing: border-box;
+    padding-left: 90px;
+    width: 60%;
+    min-height: 92px;
+    margin: 0 auto;
+    /* background-repeat: no-repeat;
+    background-position: left center; */
+}
+
+div.custom2>p[data-title-main] {
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 8px;
+    color: #384a9d;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/custom2_2.png");
+}
+
+div.custom2>p[data-title-main]::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translate(-100%, 50%);
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/titleModel/custom2_1.png");
+    background-size: cover;
+}
+
+div.custom2>p[data-title-sub] {
+    padding: 0 10px;
+    border-top: 4px solid #384a9d;
+    color: #333;
+    /* width: max-content; */
+    min-width: 200px;
+}
+
+div.custom410 {
+    position: relative;
+    padding: 32px 26px 20px;
+    border-top: 1px solid #93d3d7;
+    background-color: #f5fafb;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h5_custom1.png");
+}
+
+div.custom410>p[data-title-main] {
+    position: absolute;
+    top: -12px;
+    left: 0;
+    display: block;
+    white-space: nowrap;
+    padding: 12px 20px 6px 60px;
+    text-indent: 0;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h5_custom1.1.png");
+}
+
+div.custom410>p[data-title-main]::before,
+div.custom410>p[data-title-main]::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+div.custom410>p[data-title-main]::before {
+    content: "";           /* 必须加！ */
+    display: block;        /* 必须加！ */
+    left: 0;
+    width: 52px;           /* 宽度要和图片匹配 */
+    height: 52px;          /* 高度必须写！ */
+    background-image: url("/etextbook/users/161/dynamic_html/image/正文.png");
+    background-size: contain; /* 让图片自适应 */
+    background-repeat: no-repeat;
+}
+
+
+div.custom410>p[data-title-main]::after {
+    right: 0;
+    width: 12px;
+    background-size: cover;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h5_custom1.3.png");
+}
+
+
+
+div.custom411 {
+    position: relative;
+    padding: 32px 26px 20px;
+    border-top: 1px solid #93d3d7;
+    background-color: #f5fafb;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h5_custom1.png");
+}
+
+div.custom411>p[data-title-main] {
+    position: absolute;
+    top: -12px;
+    left: 0;
+    display: block;
+    white-space: nowrap;
+    padding: 12px 20px 6px 60px;
+    text-indent: 0;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h5_custom1.1.png");
+}
+
+div.custom411>p[data-title-main]::before,
+div.custom411>p[data-title-main]::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+div.custom411>p[data-title-main]::before {
+    content: "";           /* 必须加！ */
+    display: block;        /* 必须加！ */
+    left: 0;
+    width: 60px;           /* 宽度要和图片匹配 */
+    height: 60px;          /* 高度必须写！ */
+    background-image: url("/etextbook/users/161/dynamic_html/image/正文1.png");
+    background-size: contain; /* 让图片自适应 */
+    background-repeat: no-repeat;
+}
+
+
+div.custom411>p[data-title-main]::after {
+    right: 0;
+    width: 12px;
+    background-size: cover;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h5_custom1.3.png");
+}
+
+
+
+
+div.custom412 {
+    position: relative;
+    padding: 32px 26px 20px;
+    border-top: 1px solid #93d3d7;
+    background-color: #f5fafb;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h5_custom1.png");
+}
+
+div.custom412>p[data-title-main] {
+    position: absolute;
+    top: -12px;
+    left: 0;
+    display: block;
+    white-space: nowrap;
+    padding: 12px 20px 6px 60px;
+    text-indent: 0;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h5_custom1.1.png");
+}
+
+div.custom412>p[data-title-main]::before,
+div.custom412>p[data-title-main]::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+div.custom412>p[data-title-main]::before {
+    content: "";           /* 必须加！ */
+    display: block;        /* 必须加！ */
+    left: 0;
+    width: 52px;           /* 宽度要和图片匹配 */
+    height: 52px;          /* 高度必须写！ */
+    background-image: url("/etextbook/users/161/dynamic_html/image/正文2.png");
+    background-size: contain; /* 让图片自适应 */
+    background-repeat: no-repeat;
+}
+
+
+div.custom412>p[data-title-main]::after {
+    right: 0;
+    width: 12px;
+    background-size: cover;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h5_custom1.3.png");
+}
+
+
+
+
+
+
+div.custom511 {
+    position: relative;
+    padding: 6px 20px 6px 40px;
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: left top;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h5_custom2.png");
+}
+
+div.custom511::before,
+div.custom511::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 9px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.text-card {
+    background-color: #ffffe0; /* 浅黄色背景，和示例接近 */
+    border-radius: 16px;       /* 圆角 */
+    padding: 16px;             /* 内边距 */
+    margin-top:1em;
+    line-height: 1.8;          /* 行高，提升可读性 */
+    font-size: 16px;
+    color: #222;
+}
+
+/* 多段之间的间距 */
+.text-card p {
+    margin: 0 0 1px 0;
+    text-indent: 2em;
+
+    text-align: justify;
+    /* 优化中文两端对齐（避免字间距奇怪） */
+    text-justify: inter-ideograph;
+}
+/* 最后一段取消底部间距 */
+.text-card p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+div.custom511::before {
+    top: 0;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h5_custom2.1.png");
+}
+
+div.custom511::after {
+    bottom: 0;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h5_custom2.2.png");
+}
+
+div.custom6 {
+    padding: 26px 40px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #a72b30;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h2_custom2.png");
+    color: #f0eed7;
+    text-align: left;
+    font-family: Baoli SC;
+    font-weight: 400;
+}
+
+div.custom7 {
+    padding: 58px 22px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://etextbook-oss.keledge.com/etextbook/public/img/background/h1_custom2.png");
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+div.custom7>p {
+    text-align: center;
+    text-indent: 0;
+}
+
+div.custom8 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+    color: #384a9d;
+}
+
+div.custom8>p img {
+    width: 40px;
+    height: 100%;
+}
+
+div.custom9 {
+    font-family: '微软雅黑';
+    font-size: var(--font_size_18px);
+    line-height: 2;
+}
+
+.importzip {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 96px;
+    padding: 0 170px 0 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    color: white;
+    font-size: var(--font_size_26px);
+    line-height: 30px;
+    outline: none !important;
+    background-position: right !important;
+    cursor: pointer;
+}
+
+.importzip::after {
+    content: '>';
+    margin-left: 15px;
+}
+.importzip-arrow::after {
+    content: '';
+}
+
+.importzip>p {
+    color: white;
+    min-height: var(--theme-line-height);
+}
+
+.importzip .left_arrow {
+    height: 0.7em;
+    width: 0.7em;
+    margin-left: 10px;
+}
+
+.importzip .importzip-img,
+.importzip .imgSpanWrap {
+    position: absolute;
+    width: 75px;
+    height: 58px;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+}
+
+.importzip .imgSpanWrap .importzip-img {
+    height: 100%;
+    right: 0;
+}
+
+div[data-problemtitle],
+div[data-fillgapsquestion],
+div[data-votetitle],
+div[data-eliminatetitle],
+div[data-connectiontitle],
+div[data-draggabletitle] {
+    padding: 0 30px;
+    height: 80px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+    align-items: center;
+    background-color: var(--theme-gra-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    outline: none !important;
+    position: relative;
+}
+
+div[data-problemtitle] p,
+div[data-fillgapsquestion] p,
+div[data-votetitle] p,
+div[data-eliminatetitle] p,
+div[data-connectiontitle] p,
+div[data-draggabletitle] p {
+    margin: 0;
+    outline: none !important;
+    text-indent: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+}
+
+div[data-problemtitle] .subject-img ,
+div[data-fillgapsquestion] .subject-img ,
+div[data-votetitle] .subject-img ,
+div[data-eliminatetitle] .subject-img ,
+div[data-connectiontitle] .subject-img ,
+div[data-draggabletitle] .subject-img {
+    width: 20px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+div[data-problemtitle] .subject-icon ,
+div[data-fillgapsquestion] .subject-icon ,
+div[data-votetitle] .subject-icon ,
+div[data-eliminatetitle] .subject-icon ,
+div[data-connectiontitle] .subject-icon ,
+div[data-draggabletitle] .subject-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-left: 10px;
+    color: var(--theme-color)
+}
+
+div[data-imgbubble] {
+    outline: none !important;
+}
+
+div[data-imgbubble]>section {
+    display: inline-block;
+}
+
+div[data-imgbubble] p {
+    margin: 0;
+    text-align: center;
+}
+
+span[data-namebubble] {
+    display: inline;
+}
+
+.img_bubble_icon {
+    position: relative;
+    padding-left: 20px;
+}
+
+.img_bubble_icon>p {
+    text-indent: 0.5em;
+    display: inline;
+}
+
+.img_bubble_icon::before {
+    content: '注';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    margin-right: 5px;
+    transform: translateY(3px);
+    background-color: var(--theme-bg-color);
+    border-radius: 50%;
+    color: #fff;
+    font-size: var(--font_size_12px);
+    font-style: normal;
+    text-align: center;
+    cursor: pointer;
+}
+
+#phoneReaderBox .img_bubble_icon::before {
+    width: 0.4rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    transform: translateY(0.07rem);
+}
+
+table caption {
+    font-size: var(--font_size_16px);
+    font-weight: bold;
+    color: var(--theme-bg-color);
+    background-color: var(--theme-gra-color);
+    text-align: center;
+    line-height: 2;
+}
+table caption.editor-table-caption {
+    font-size: var(--font_size_16px);
+    font-weight: bold;
+    color: inherit;
+    background-color: transparent;
+    line-height: var(--theme-line-height);
+}
+
+@media screen and (max-width: 768px) {
+
+    ul,
+    ol {
+        padding-left: 20px;
+    }
+
+    div.level1>p[data-title-sub] {
+        margin-top: 15px;
+    }
+
+    div.level1 {
+        padding: 24px 26px;
+    }
+
+    div.level4>p {
+        padding-left: 0.3rem;
+    }
+
+    div.level5 {
+        padding-left: 100px;
+    }
+
+    div.level5 p {
+        padding: 14px 20px 12px 0;
+        background-size: 30%;
+    }
+
+    div.level5::before {
+        width: 96px;
+        height: 76px;
+    }
+
+    div.level6>p {
+        padding-right: 30px;
+    }
+
+    div.custom7 {
+        padding: 42px 22px;
+    }
+
+    div.level2 {
+        padding: 20px 16px !important;
+    }
+
+    div.level9::before {
+        bottom: -4px;
+        width: 68px;
+        height: 64px;
+    }
+
+    div.level9::after {
+        bottom: 2px;
+        width: 48px;
+        height: 62px;
+    }
+
+    div.level9>p {
+        padding-left: 50px;
+    }
+
+    div.level9>p::before {
+        background-position: center bottom;
+    }
+
+    div.level9>p::after {
+        background-position: center top;
+    }
+
+    div.level10 {
+        padding: 0 9px;
+    }
+
+    div.level10>p[data-title-main] {
+        padding-right: 0;
+    }
+
+    div.level10>p[data-title-sub] {
+        min-width: 88px;
+        height: 32px;
+    }
+
+    div.custom1 {
+        padding: 43px 14px 20px 33%;
+    }
+
+    div.custom1>p[data-title-main] {
+        margin-bottom: 0;
+    }
+
+    div.custom2 {
+        width: 100%;
+        padding-left: 92px;
+        min-height: 75px;
+        background-size: auto 100%;
+        background-position: 20px;
+    }
+
+    div.custom2>p[data-title-main] {
+        padding-left: 30px;
+    }
+
+    div.custom6 {
+        padding: 16px 40px;
+        background-size: auto 100%;
+    }
+
+    .importzip {
+        height: 70px;
+        line-height: 70px;
+        background-size: auto 100% !important;
+        padding: 0px 120px 0 30px;
+    }
+
+    /*table {*/
+    /*  width: 100% !important;*/
+    /*}*/
+
+    table caption {
+        font-size: var(--font_size_14px);
+    }
+
+    #phonereader_reader_box .chapterItemBox .imgSpanWrap img {
+        height: auto !important;
+    }
+
+    #phonereader_reader_box .chapterItemBox .imgSpanWrap {
+        display: inline-block;
+        flex-shrink: 0;
+    }
+
+    .middle-image-text .blankText {
+        display: none;
+    }
+
+    .middle-image-text>p,
+    .middle-image-text>span {
+        flex: 1;
+    }
+
+    #phonereader_reader_box .chapterItemBox .importzip .imgSpanWrap {
+        width: 66px !important;
+        right: 16px;
+    }
+
+    .insertiGraphFrame iframe {
+        width: 100%;
+    }
+}
+
+.bubble1,
+.bubble2 {
+    position: relative;
+    padding-right: 2px;
+    text-indent: 0;
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--theme-bg-color);
+    color: var(--theme-color);
+}
+
+.bubble1::after,
+.bubble2::after {
+    content: '';
+    display: inline-block;
+    transform: translateY(2px);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18px;
+    height: 18px;
+    background-color: var(--theme-bg-color);
+    mask-size: 100%;
+}
+
+#phoneReaderBox .bubble1::after,
+#phoneReaderBox .bubble2::after {
+    width: 0.35rem;
+    height: 0.35rem;
+}
+
+/*上标气泡样式调整*/
+sup .bubble1::before {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid var(--theme-color);
+    width: 100%;
+    height: 0px;
+    bottom: 0;
+    left: 0;
+}
+sup .bubble1{
+    text-decoration: inherit;
+}
+sup .bubble1::after {
+    width: 8px;
+    height: 8px;
+    vertical-align: text-top;
+}
+.bubble1::after {
+    mask-image: url('data:image/svg+xml,<svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><path d="M892 141.6H134c-37.6 0-68 30.4-68 68v534.5c0 37.6 30.4 68 68 68h109.1l18.5 82c8.6 38 55.1 52.5 83.7 26l117-108H892c37.6 0 68-30.4 68-68V209.6c0-37.5-30.5-68-68-68zM314 507.8c-31.8 0-57.5-25.8-57.5-57.5s25.8-57.5 57.5-57.5c31.8 0 57.5 25.8 57.5 57.5s-25.7 57.5-57.5 57.5z m209.4 4c-31.8 0-57.5-25.8-57.5-57.5s25.8-57.5 57.5-57.5c31.8 0 57.5 25.8 57.5 57.5s-25.7 57.5-57.5 57.5z m209.4 0c-31.8 0-57.5-25.8-57.5-57.5s25.8-57.5 57.5-57.5c31.8 0 57.5 25.8 57.5 57.5s-25.7 57.5-57.5 57.5z" p-id="4218"></path></svg>');
+}
+
+.bubble2::after {
+    mask-image: url('data:image/svg+xml,<svg t="1740332784098" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5556" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><path d="M512 64C264.597333 64 64 264.597333 64 512s200.597333 448 448 448 448-200.597333 448-448S759.402667 64 512 64z m0 708.010667a39.978667 39.978667 0 1 1-0.021333-80 39.978667 39.978667 0 0 1 0.021333 80z m62.890667-219.52a48.298667 48.298667 0 0 0-30.890667 44.8v22.698666a8.021333 8.021333 0 0 1-8 8h-48a8.021333 8.021333 0 0 1-8-8v-21.482666a113.706667 113.706667 0 0 1 19.904-64.917334 111.786667 111.786667 0 0 1 52.096-40.896c34.005333-13.098667 56-41.6 56-72.682666 0-44.117333-43.093333-80-96-80s-96 35.882667-96 80v7.594666a8.021333 8.021333 0 0 1-8 8h-48a8.021333 8.021333 0 0 1-8-8v-7.616c0-39.296 17.194667-75.989333 48.405333-103.296 29.994667-26.282667 69.589333-40.704 111.594667-40.704 42.005333 0 81.6 14.506667 111.594667 40.704 31.210667 27.306667 48.405333 64 48.405333 103.296 0 57.813333-38.101333 109.802667-97.109333 132.501334z" p-id="5557"></path></svg>');
+}
+
+/*章头图片样式*/
+.chapterImg_width {
+    width: 100%;
+}
+
+img[data-chapterimgid] {
+    width: 100%;
+    vertical-align: top;
+}
+
+
+.custom-border {
+    border: 1px solid black;
+}
+
+.el-dropdown-menu__item:not(.is-disabled):focus,
+.el-dropdown-menu__item:not(.is-disabled):hover {
+    color: #333 !important;
+    background-color: #f1f4f7 !important;
+}
+
+/* 标题样式 #webreader_reader_wrap,#phonereader_main_box,#tinymce */
+body h1 {
+    font-size: var(--font_size_28px);
+    color: var(--theme-bg-color);
+}
+
+body h2 {
+    font-size: var(--font_size_24px);
+    color: var(--theme-bg-color);
+}
+
+body h3 {
+    font-size: var(--font_size_20px);
+    color: var(--theme-bg-color);
+    text-indent: calc(var(--theme-font-size) * 2);
+}
+
+body h4 {
+    font-size: var(--font_size_18px);
+    color: var(--theme-bg-color);
+    text-indent: calc(var(--theme-font-size) * 2);
+    font-weight: normal;
+    margin-top: 0;
+}
+
+body h5 {
+    font-size: var(--font_size_18px);
+    color: var(--theme-bg-color);
+}
+
+body h6 {
+    font-size: var(--font_size_16px);
+    color: var(--theme-bg-color);
+}
+
+body .skcm-ui-template-fangzheng h1 {
+    font-family: '方正黑体简体';
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-indent: 0;
+    color: black; }
+body .skcm-ui-template-fangzheng h2 {
+    font-family: '方正黑体简体';
+    font-size: var(--font_size_26px);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    color: black;
+    text-indent: 0; }
+body .skcm-ui-template-fangzheng h3 {
+    font-family: '方正黑体简体';
+    font-size: var(--font_size_22px);
+    text-align: left;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: black;
+    text-indent: 0; }
+body .skcm-ui-template-fangzheng h4 {
+    font-family: '方正宋一简体';
+    font-size: var(--font_size_18px);
+    text-align: left;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: black;
+    text-indent: 0; }
+/* 这个之前是在content_style 编辑器内部使用的，现在阅读器需要 */
+.xitiVisibility {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 80px;
+    padding-left: 6%;
+    background-color: var(--theme-gra-color);
+    background-size: cover;
+    font-size: var(--font_size_18px);
+    line-height: 80px;
+    padding-right: 30px;
+    outline: none !important;
+    cursor:pointer !important;
+}
+
+.xitiVisibility em {
+    font-style: normal;
+    text-align: left;
+}
+/* 插入习题模板 */
+.insert-exercises-model1,
+.insert-exercises-model2,
+.insert-exercises-model3,
+.insert-exercises-model4,
+.insert-exercises-model6,
+.insert-exercises-model7,
+.xitiVisibility.insert-exercises-model1,
+.xitiVisibility.insert-exercises-model2,
+.xitiVisibility.insert-exercises-model3,
+.xitiVisibility.insert-exercises-model6,
+.xitiVisibility.insert-exercises-model7,
+.xitiVisibility.insert-exercises-model4 {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 6px 20px;
+    min-height: 62px;
+    height: auto;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.insert-exercises-model1 span,
+.insert-exercises-model2 span,
+.insert-exercises-model3 span,
+.insert-exercises-model4 span,
+.insert-exercises-model6 span,
+.insert-exercises-model7 span,
+.xitiVisibility.insert-exercises-model1 span,
+.xitiVisibility.insert-exercises-model2 span,
+.xitiVisibility.insert-exercises-model3 span,
+.xitiVisibility.insert-exercises-model6 span,
+.xitiVisibility.insert-exercises-model7 span,
+.xitiVisibility.insert-exercises-model4 span {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.insert-exercises-model1 p,
+.insert-exercises-model2 p,
+.insert-exercises-model3 p,
+.insert-exercises-model4 p,
+.insert-exercises-model6 p,
+.insert-exercises-model7 p,
+.xitiVisibility.insert-exercises-model1 p,
+.xitiVisibility.insert-exercises-model2 p,
+.xitiVisibility.insert-exercises-model3 p,
+.xitiVisibility.insert-exercises-model6 p,
+.xitiVisibility.insert-exercises-model7 p,
+.xitiVisibility.insert-exercises-model4 p {
+    text-indent: 0;
+}
+
+.insert-exercises-model1,
+.insert-exercises-model2,
+.xitiVisibility.insert-exercises-model1,
+.xitiVisibility.insert-exercises-model2 {
+    /* min-height: 56px; */
+    /* margin: 10px; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 0 10px #00000061; */
+    font-family: '微软雅黑';
+}
+
+.insert-exercises-model1,
+.xitiVisibility.insert-exercises-model1 {
+    padding: 27px 20px;
+    justify-content: space-between;
+    background-color: #d7c5a1;
+    color: #682225;
+    font-size: var(--font_size_24px);
+    line-height: 30px;
+}
+
+.insert-exercises-model6,
+.xitiVisibility.insert-exercises-model6{
+    padding: 25px 20px;
+    justify-content: space-between;
+    background-color: var(--bg_gra_color);
+    color: var(--bg_color);
+    font-size: var(--theme-font-size);
+    line-height: 30px;
+}
+
+.insert-exercises-model2,
+.xitiVisibility.insert-exercises-model2 {
+    min-height: 108px;
+    padding-right: 120px;
+    background-color: #BC8146;
+    color: #e2ebfe;
+    font-size: var(--font_size_18px);
+}
+
+.insert-exercises-model2 .icon,
+.xitiVisibility.insert-exercises-model2 .icon {
+    position: absolute;
+    right: 0;
+}
+
+.insert-exercises-model2 .icon span,
+.xitiVisibility.insert-exercises-model2 .icon span {
+    width: 140px;
+    height: 70px
+}
+
+.insert-exercises-model3,
+.xitiVisibility.insert-exercises-model3 {
+    padding-right: 60px;
+    overflow: hidden;
+    background-color: #D1D9ED;
+    color: #2A66EC;
+    font-size: var(--font_size_16px);
+    line-height: 38px;
+}
+
+.insert-exercises-model3 .icon,
+.xitiVisibility.insert-exercises-model3 .icon {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.insert-exercises-model3 .exit,
+.xitiVisibility.insert-exercises-model3 .exit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    background-color: #2A66EC;
+}
+
+.insert-exercises-model3 .exit span,
+.xitiVisibility.insert-exercises-model3 .exit span {
+    height: 20px;
+}
+
+
+.insert-exercises-model3:has(.exit),
+.xitiVisibility.insert-exercises-model3:has(.exit),
+.insert-exercises-model7:has(.exit),
+.xitiVisibility.insert-exercises-model7:has(.exit),
+.insert-exercises-model4:has(.exit),
+.xitiVisibility.insert-exercises-model4:has(.exit) {
+    padding-right: 60px;
+}
+
+
+.insert-exercises-model3,
+.xitiVisibility.insert-exercises-model3,
+.insert-exercises-model7,
+.xitiVisibility.insert-exercises-model7,
+.insert-exercises-model4,
+.xitiVisibility.insert-exercises-model4 {
+    min-height: 80px;
+    padding: 5px 20px;
+    font-size: var(--font_size_30px);
+}
+
+
+
+
+
+.insert-exercises-model4 .exit,
+.xitiVisibility.insert-exercises-model4 .exit,
+.insert-exercises-model3 .exit,
+.xitiVisibility.insert-exercises-model3 .exit ,
+.insert-exercises-model7 .exit,
+.xitiVisibility.insert-exercises-model7 .exit {
+    width: 60px;
+}
+
+.insert-exercises-model4 .exit svg,
+.xitiVisibility.insert-exercises-model4 .exit svg,
+.insert-exercises-model3 .exit svg,
+.xitiVisibility.insert-exercises-model3 .exit svg {
+    width: 28px;
+    height: 28px;
+}
+
+.insert-exercises-model7 .exit svg,
+.xitiVisibility.insert-exercises-model7 .exit svg{
+    width: 18px;
+    height: 18px;
+}
+
+.insert-exercises-model3 .icon span,
+.insert-exercises-model7 .icon span,
+.insert-exercises-model4 .icon span,
+.xitiVisibility.insert-exercises-model3 .icon span,
+.xitiVisibility.insert-exercises-model7 .icon span,
+.xitiVisibility.insert-exercises-model4 .icon span {
+    width: 70px;
+    height: 70px;
+}
+
+
+.insert-exercises-model4,
+.xitiVisibility.insert-exercises-model4 {
+    justify-content: space-between;
+    padding-left: 80px;
+    overflow: hidden;
+    background-color: #d1d9ed;
+    color: #355291;
+    line-height: 38px;
+}
+
+.insert-exercises-model4 .exit,
+.xitiVisibility.insert-exercises-model4 .exit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #355291;
+    margin: 0;
+}
+
+.insert-exercises-model4 .exit span,
+.xitiVisibility.insert-exercises-model4 .exit span {
+    height: 20px;
+}
+
+.insert-exercises-model7,
+.xitiVisibility.insert-exercises-model7 {
+    padding-right: 70px;
+    overflow: hidden;
+    background-color: var(--bg_gra_color);
+    color: var(--bg_color);
+    font-size: var(--theme-font-size);
+    line-height: 38px;
+}
+
+.insert-exercises-model7 .icon,
+.xitiVisibility.insert-exercises-model7 .icon {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.insert-exercises-model7 .icon span,
+.xitiVisibility.insert-exercises-model7 .icon span{
+    background-position: center;
+}
+
+.insert-exercises-model7 .exit,
+.xitiVisibility.insert-exercises-model7 .exit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    background-color: var(--bg_color);
+}
+
+.insert-exercises-model7 .exit span,
+.xitiVisibility.insert-exercises-model7 .exit span {
+    height: 20px;
+}
+
+.xitiVisibility.insert-exercises-model1 .blankText,
+.xitiVisibility.insert-exercises-model6 .blankText,
+.xitiVisibility.insert-exercises-model4 .blankText{
+    display: none;
+}
+
+/* 视频模板 - 卡片模式*/
+.video_model_card .mce-object-video {
+    min-width: 100%;
+}
+.video_model_card .card-mode-content {
+    margin-bottom: 0;
+    padding: 0 6%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+}
+.video_model_card .card-mode-content .accordion {
+    float: right;
+    margin-right: 1.25em;
+    font-family: 'Microsoft YaHei';
+    font-size: var(--font_size_16px);
+    transform: scale(0.8);
+}
+.video_model_card .panel {
+    position: relative;
+    padding: 0;
+    max-height: 0px;
+    overflow: hidden;
+}
+.video_model_card .panel video {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: none;
+}
+
+/* 视频模板 - 预览模式*/
+.video_model_preview .card-mode-content {
+    margin-bottom: 0;
+    padding: 0 6%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    line-height: normal;
+}
+.video_model_preview .card-mode-content span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    white-space: nowrap;
+    font-size: 1em;
+    font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+}
+.video_model_preview > div:last-child {
+    position: relative;
+    padding: 0;
+}
+.video_model_preview > div:last-child span {
+    display: block;
+}
+.video_model_preview > div:last-child video {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: none;
+}
+
+/* 视频模板 - 文字模式*/
+.audio-card-model {
+    cursor: pointer;
+}
+.video_model_word,
+.video_model_chinese,
+.video_model_background {
+    display: block;
+    position: relative;
+    text-indent: initial;
+    cursor: pointer !important;
+}
+.video_model_word:hover,
+.video_model_chinese:hover,
+.video_model_background:hover {
+    outline: none !important;
+}
+.video_model_word > div[data-videoid],
+.video_model_chinese > div[data-videoid],
+.video_model_background > div[data-videoid] {
+    cursor: pointer;
+}
+.video_model_word > div[data-videoid] > .spanWrap,
+.video_model_chinese > div[data-videoid] > .spanWrap,
+.video_model_background > div[data-videoid] > .spanWrap,
+.video_model_word .blankText,
+.video_model_chinese .blankText,
+.video_model_background .blankText {
+    display: none;
+}
+.video_model_word .videoimg {
+    width: 16px;
+    height: 16px;
+    margin-top: 5px;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.video_model_word div[data-name] {
+    display: inline;
+    /* cursor: pointer; */
+    text-decoration: none;
+    font-size: var(--font_size_14px);
+    color: #2E70EA;
+    font-family: PingFang SC;
+    border-bottom: 1px solid #2E70EA;
+    vertical-align: middle;
+}
+.video_model_word div[data-name] > div {
+    display: inline;
+}
+.video_model_word > div,
+.video_model_chinese > div,
+.video_model_background > div {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 50px auto;
+    align-items: center;
+}
+.video_model_word > div {
+    font-size: var(--font_size_16px);
+    grid-template-columns: 30px auto;
+}
+/* .video_model_background {
+  display: block;
+} */
+.video_model_background > div {
+    position: relative;
+    padding: 15px 40px 15px 15px;
+}
+.video_model_background > div::after {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    content: ">";
+    font-size: var(--font_size_20px);
+    color: var(--theme-bg-color);
+    transform: scaleY(2) translateY(-50%);
+    align-self: flex-start;
+    line-height: 0;
+}
+.video_model_chinese .cover-img,
+.video_model_background .cover-img {
+    display: inline-block;
+    margin-right: 8px;
+    background-color: #1C68BD;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.video_model_chinese .cover-img {
+    width: 26px;
+    height: 20px;
+}
+.video_model_background .cover-img {
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+}
+.video_model_chinese div[data-name],
+.video_model_background div[data-name] {
+    color: var(--theme-bg-color) !important;
+    cursor: pointer;
+    text-align: left;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+/* .video_model_chinese div > .spanWrap,
+.video_model_background div > .spanWrap {
+  display: flex;
+  flex-wrap: wrap;
+} */
+.video_model_word > .spanWrap,
+.video_model_chinese > .spanWrap,
+.video_model_background > .spanWrap {
+    display: none;
+}
+
+/* 文字视频 */
+.video_model_chinese>div{
+    align-items: flex-start;
+    display: flex;
+    padding-left: 34px;
+    position: relative;
+}
+.video_model_chinese .cover-img{
+    position: absolute;
+    left: 0;
+    top: 0.25em;
+}
+
+
+
+
+/* 视频模板 - 展示模式1*/
+.video_model_display1 video::-webkit-media-controls-timeline,
+.video_model_display2 video::-webkit-media-controls-timeline {
+    display: block;
+}
+.video_model_display1 {
+    cursor: pointer !important;
+}
+.video_model_display1 span {
+    display: block;
+}
+.video_model_display1 .blankText {
+    display: none;
+}
+.video_model_display1 > div:first-child {
+    position: relative;
+    padding: 0;
+}
+.video_model_display1 > div[data-video2id] {
+    position: relative;
+    padding: 0;
+}
+.video_model_display1 > div:first-child video {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    object-fit: fill;
+    vertical-align: top;
+}
+.video_model_display1 .cover-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    /*background-size: 100% 100%;*/
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+.video_model_display1 div[data-video-mask],
+.video_model_display3 div[data-video-mask] {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.video_model_display1 div[data-video-mask]:hover,
+.video_model_display3 div[data-video-mask]:hover {
+    outline: none;
+}
+.video_model_display1 div[data-name="true"] {
+    box-sizing: border-box;
+    font-family: var(--theme-font-family);
+    text-align: left;
+}
+.video_model_display1 div[data-name="true"] .spanWrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.video_model_display1 div[data-name="true"],
+.video_model_display3 div[data-name="true"] {
+    padding: 5px 20px;
+    font-size: var(--font_size_16px);
+    pointer-events: none;
+}
+
+/* 视频模板 - 展示模式2*/
+.video_model_display3 {
+    position: relative;
+}
+.video_model_display3::after{
+    content: "视频";
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    color: #fff;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: var(--font_size_14px);
+}
+.video_model_display3 span {
+    display: block;
+}
+.video_model_display3 .blankText {
+    display: none;
+}
+.video_model_display3 div[data-video2id] {
+    position: relative;
+    padding: 0;
+}
+.video_model_display3 video {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    object-fit: fill;
+    vertical-align: top;
+}
+.video_model_display3 .cover-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: #fff;
+}
+.video_model_display3 div[data-name] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000075;
+    box-sizing: border-box;
+    margin-top: -6px;
+    font-family: 'Microsoft YaHei',
+    'PingFang SC', sans-serif;
+    color: white !important;
+    text-align: center;
+}
+/* 2025年06月27日 新版video  name里的span不要加东西*/
+.video-card-model-v2 div[data-name="true"] span{
+    display: inline;
+}
+.video_model_display3 > div[video-cover-id] span.spanWrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.video_model_display3 > div[video-cover-id] span.spanWrap > span {
+    font-size: var(--font_size_18px);
+}
+
+/* 视频模板 - 展示模式3*/
+.video_model_display2 {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('https://etextbook-oss.keledge.com/etextbook/public/img/video-display-type2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 28px 35px 42px;
+    cursor: pointer !important;
+}
+.video_model_display1 .blankText,
+.video_model_display2 > .spanWrap {
+    display: none;
+}
+.video_model_display2 > div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-right: 40px;
+}
+.video_model_display2 div[data-sub-name] {
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: var(--font_size_30px);
+    text-align: left;
+    /*2025年05月26日16:05:05  把行内提取出来*/
+    border-bottom: 1px solid var(--bg_color);
+    color:var(--bg_color);
+}
+.video_model_display2 div[data-name] {
+    margin-top: 10px;
+    font-size: var(--font_size_24px);
+    font-family: var(--theme-font-family);
+    text-align: left;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+}
+.video_model_display2 > div[data-video2id] {
+    width: 255px;
+    height: 143px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.video_model_display2 div[data-video2id] > .cover-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.video_model_display2 div[data-video-play-icon],.video_model_display2 .video-play-icon-v2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url('https://etextbook-oss.keledge.com/etextbook/public/img/video/icon-play.png');
+    background-size: 20%;
+    cursor: pointer;
+}
+.video_model_display2 div[data-video-play-icon]:hover,.video_model_display2 .video-play-icon-v2:hover {
+    outline: none;
+}
+
+/* 确保p标签本身也不缩进 */
+body p:has([data-3did]),
+body p:has([data-mce-p-data-3did]),
+body p [data-mce-p-data-3did] {
+    text-indent: 0 !important;
+}
+/* 解决视频被华科影响缩进了 */
+div[data-mp4-id]{
+    text-indent: 0 !important;
+}
+@media screen and (max-width: 750px) {
+    .card-mode-content .accordion {
+        white-space: nowrap;
+    }
+    .xitiVisibility {
+        height: 64px;
+        background-size: 100% 100%;
+    }
+    .card-mode-content .accordion .spanWrap {
+        display: flex;
+    }
+    .video_model_display2 {
+        padding: 1.5em;
+        line-height: 2em;
+    }
+    .video_model_display2 > div[data-video2id] {
+        width: 145px;
+    }
+    .video_model_card .card-mode-content {
+        background-size: cover !important;
+        padding-top: 32px !important;
+        padding-bottom: 32px !important;
+    }
+    .video_model_card .card-mode-content .accordion {
+        margin-right: 0;
+    }
+    .video_model_card .card-mode {
+        padding-bottom: 64px;
+    }
+    .card-mode-content {
+        font-size: var(--font_size_16px);
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        background-size: 100% 100% !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: auto;
+    }
+    [data-link-info]{
+        /*.card-mode{*/
+        /*  padding-bottom: 1.7rem;*/
+        /*}*/
+        .card-mode-content{
+            padding-top: 0.2rem !important;
+            padding-bottom: 0.2rem !important;
+            font-size: var(--font_size_10px);
+            /*.href-mode-card-name,[data-name]{*/
+
+            /*}*/
+        }
+    }
+}
+
+
+
+
+div[data-groupimgid] {
+    position: relative;
+    max-width: 680px;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+}
+
+div[data-groupimgid]::after {
+    content: "图集";
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    color: #fff;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 14px;
+}
+
+div[data-groupimgid]>img {
+    display: block;
+    margin: 0 auto;
+}
+
+div[data-groupimgid]>.group_name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000075;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+    color: white !important;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    height: auto;
+    line-height: 1.5;
+    word-break: break-word;
+
+}
+
+
+/* 表格超宽处理*/
+.editor-custom-table{
+    width: 100%;
+    overflow-x: auto;
+}
+
+/*正文主题字号、大小加粗，居中*/
+.editor-table-prev-title,.articleContent .editor-table-prev-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: var(--theme-font-size);
+    text-indent: 0;
+}
+
+.articleContent .editor-table-save-btn {
+    display: none;
+}
+
+
+/*base_resource_element 样式下标题和文本不能左对齐*/
+.base_resource_element {
+    text-align: left !important;
+}
+.base_resource_element:has(img),
+.base_resource_element:has(video) {
+    text-align: center !important;
+}
+.pro_tit {
+    text-align: left !important;
+}
+
+.articleContent .practical_title {
+    font-size: 28px;
+    color: var(--bg_color);
+}
+
+.mce-content-body .practical_link {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: var(--bg_color);
+    color: #fff;
+    line-height: 1;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.mce-content-body .practical_title_wrapper {
+    font-size: 28px;
+    color: var(--bg_color);
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.mce-content-body .title-container {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.mce-content-body .title-container.empty-title {
+    display: none;
+}
+
+.mce-content-body .common-iframe {
+    margin: 0 auto;
+}
+
+.mce-content-body .iframe-container {
+    position: relative;
+}
+
+.mce-content-body div[data-type="iframe"] .mce-preview-object {
+    display: block;
+}
+
+.mce-content-body .title-img {
+    width: 40px;
+}
+
+.mce-content-body .expand-img {
+    position: absolute;
+    top: 0;
+    right: -18px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    filter: invert(55%) sepia(95%) saturate(1200%) hue-rotate(5deg) brightness(102%) contrast(102%);
+}
+.related-model1 {
+    border-radius: 6px;
+    display: flex;
+    gap: 8px;
+    position: relative;
+    align-items: center;
+    padding: 6px 20px;
+    min-height: 62px;
+    height: auto;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: var(--theme-font-size);
+    color: var(--bg_color);
+    background-color: var(--theme-gra-color);
+    justify-content: space-between;
+}
+.related-model2 {
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 20px;
+    min-height: 62px;
+    height: auto;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: var(--theme-font-size);
+    color: var(--bg_color);
+    background-color: var(--theme-gra-color);
+
+    .left-group {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    img {
+        height: 50px;
+    }
+
+    .exit {
+        flex-shrink: 0;
+        margin-left: auto;
+        cursor: pointer;
+    }
+}
+.related-model3{
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: var(--theme-font-size);
+    color: var(--bg_color);
+    background-color: var(--theme-gra-color);
+    background-size: 100% 100%;
+    min-height: 70px;
+    padding: 6px 20px;
+    display: flex;
+    align-items: center;
+}
+.related-model4 {
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 20px;
+    min-height: 90px;
+    height: auto;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: var(--theme-font-size);
+    color: var(--bg_color);
+    background-color: var(--theme-gra-color);
+
+    .left-group {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    img {
+        height: 50px;
+    }
+
+    .exit {
+        margin-left: auto;
+        cursor: pointer;
+    }
+}
+.editor-subject-problem {
+    text-align: left;
+}
+.editable-bg {
+    text-align: left;
+}
+
+/* 习题增加图片导入 默认上下居中*/
+.paper-inline-img{
+    vertical-align: middle;
+}
+.paper-block-img-box{
+    text-align: center;
+}
+
+/* 评价表基础样式 */
+.evaluation-new-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.evaluation-new-table {
+    width: 100%;
+    min-width: 680px;
+    border-collapse: collapse;
+    border: 1px solid #D8D8D8;
+}
+
+.evaluation-new-table caption {
+    font-size: var(--font_size_16px);
+    font-weight: bold;
+    margin-bottom: 13px;
+    color: #333;
+    background-color: transparent;
+}
+
+.evaluation-new-table td {
+    font-size: var(--font_size_14px);
+    border: 1px solid #D8D8D8;
+    padding: 8px;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    color: #333;
+}
+
+/* 标题文本 */
+.evaluation-new-table .td-title {
+    background: #EEF1F9;
+    font-weight: bold;
+}
+
+/* 保存按钮 */
+.evaluation-save-btn {
+    background: var(--theme-bg-color, #3662EC) !important;
+    border-radius: 4px 4px 4px 4px;
+    border: none !important;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    width: 83px;
+    height: 28px;
+    line-height: 24px;
+    font-size: var(--font_size_14px);
+}
+.word-section-center{
+    display: flex;
+    justify-content: center;
+}
+.word-section-center .word-section-div{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+
+/* 双栏布局 */
+.two-column-layout {
+    display: flex;
+    gap: 20px;
+    /* 垂直对齐样式 */
+    /* 名称对齐方式 */ }
+.two-column-layout .image-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.3s ease; }
+.two-column-layout .image-item.align-flex-start {
+    justify-content: flex-start; }
+.two-column-layout .image-item.align-center {
+    justify-content: center; }
+.two-column-layout .image-item.align-flex-end {
+    justify-content: flex-end; }
+.two-column-layout .image-item.space-between {
+    justify-content: space-between; }
+.two-column-layout .image-item-hover:hover {
+    transform: translateY(-5px); }
+.two-column-layout .image-wrapper {
+    width: 100%;
+    display: flex;
+    overflow: hidden; }
+.two-column-layout .image-wrapper.align-top {
+    align-items: flex-start;
+    justify-content: center; }
+.two-column-layout .image-wrapper.align-center {
+    align-items: center;
+    justify-content: center; }
+.two-column-layout .image-wrapper.align-bottom {
+    align-items: flex-end;
+    justify-content: center; }
+.two-column-layout .image-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block; }
+.two-column-layout .image-caption {
+    padding: 12px 15px;
+    text-align: center;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-word; }
+.two-column-layout .caption-left {
+    text-align: left;
+    justify-content: flex-start; }
+.two-column-layout .caption-center {
+    text-align: center;
+    justify-content: center; }
+.two-column-layout .caption-right {
+    text-align: right;
+    justify-content: flex-end; }
+
+/* 三栏布局 */
+.three-column-layout {
+    display: flex;
+    gap: 20px; }
+
+/* ===== 响应式样式 ===== */
+@media screen and (max-width: 768px) {
+    div.level5 {
+        padding-left: 100px;
+    }
+
+    div.level5 p {
+        padding: 14px 20px 12px 0;
+        background-size: 30%;
+    }
+
+    div.level5::before {
+        width: 96px;
+        height: 76px;
+    }
+
+    div.custom2 {
+        width: 100%;
+        padding-left: 92px;
+        min-height: 75px;
+        background-size: auto 100%;
+        background-position: 20px;
+    }
+
+    div.custom2>p[data-title-main] {
+        padding-left: 30px;
+    }
+
+    div.level8 {
+        padding-left: 40px;
+        background-size: auto 30px;
+    }
+
+    div.level12 {
+        background-size: auto 0.8rem;
+        padding: 0.2rem 0.3rem 0.15rem 1.1rem;
+    }
+
+    div.level11>p {
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div.level5 {
+        padding-left: 80px;
+    }
+
+    div.level5::before {
+        width: 75px;
+        height: 60px;
+    }
+
+    div.custom2 {
+        padding-left: 70px;
+    }
+
+    div.custom2>p[data-title-main]::after {
+        width: 50px;
+        height: 50px;
+    }
+}

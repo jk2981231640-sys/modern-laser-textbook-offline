@@ -1,0 +1,73 @@
+
+        @import url("./themeColor.css?date=1778070572808");
+        @import url("./epub.css?date=1778070572808");
+        
+        :root{
+            --bg_color: var(--theme-bg-color);
+            --bg_gra_color: var(--theme-gra-color);
+            --font_color: var(--theme-color);
+        }
+        body {
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-color: var(--theme-background-color);
+            color: var(--theme-font-color);
+            font-size: var(--theme-font-size);
+            font-family: var(--theme-en-font-family),var(--theme-font-family);
+            line-height: var(--theme-line-height);
+        }
+        body p,.articleContent p{
+            text-indent: var(--theme-text-indent);
+        }
+        
+        #webreader_reader_wrap h1 ,#tinymce h1{
+            font-size: var(--h1_fontSize);
+						color: var(--h1_color);
+        }
+        #phonereader_main_box h1{
+            font-size: var(--font_size_32px,var(--h1_fontSize));
+						color: var(--h1_color);
+        }
+        #webreader_reader_wrap h2,#tinymce h2{
+            font-size: var(--h2_fontSize);
+						color: var(--h2_color);
+        }
+        #phonereader_main_box h2{
+            font-size: var(--font_size_28px,var(--h2_fontSize));
+						color: var(--h2_color);
+        }
+        #webreader_reader_wrap h3,#tinymce h3{
+						font-size: var(--h3_fontSize);
+						color: var(--h3_color);
+				}
+        #phonereader_main_box h3{
+            font-size: var(--font_size_24px,var(--h3_fontSize));
+						color: var(--h3_color);
+        }
+				#webreader_reader_wrap h4,#tinymce h4{
+						font-size: var(--h4_fontSize);
+						color: var(--h4_color);
+				}
+        #phonereader_main_box h4{
+            font-size: var(--font_size_20px,var(--h4_fontSize));
+						color: var(--h4_color);
+        }
+				#webreader_reader_wrap h5,#tinymce h5{	
+						font-size: var(--h5_fontSize);	
+						color: var(--h5_color);
+				}
+        #phonereader_main_box h5{
+            font-size: var(--font_size_18px,var(--h5_fontSize));
+						color: var(--h5_color);
+        }
+				#webreader_reader_wrap h6,#tinymce h6{
+						font-size: var(--h6_fontSize);
+						color: var(--h6_color);
+				}
+        #phonereader_main_box h6{
+            font-size: var(--font_size_16px,var(--h6_fontSize));
+						color: var(--h6_color);
+        }
+        
+        
+    

@@ -1,0 +1,49 @@
+
+        :root{
+            --theme-bg-color: rgb(26, 172, 240);
+            --theme-gra-color: #ccdeff;
+            --theme-font-color: #333;
+            --theme-background-color: rgb(255, 255, 255);
+            --theme-color: rgb(26, 172, 240);
+            /*主题色转换*/
+            --theme-color-cover:26 172 240;
+            --theme-line-height:1.5;
+            --theme-font-size: 16px;
+            --theme-font-family:思源宋体-Regular;
+            --theme-en-font-family:SourceHanSerif-Regular;
+            --theme-text-indent:2em;
+            
+						/*章节主标题颜色*/
+						--theme-chapter-main-font-color:rgb(236, 240, 241);
+						--theme-chapter-main-font-color-cover:236 240 241;
+						/*章节副标题颜色*/
+						--theme-chapter-sub-font-color:#1C68BD;
+						--theme-chapter-sub-font-color-cover:28 104 189;
+						
+						/*h1系列标题大小和颜色*/
+						--h1_fontSize:32px;
+						--h1_color:rgb(151, 241, 247);
+						--h1_color_cover:151 241 247;
+						
+						--h2_fontSize:28px;
+						--h2_color:#1C68BD;
+						--h2_color_cover:28 104 189;
+						
+						--h3_fontSize:24px;
+						--h3_color:#1C68BD;
+						--h3_color_cover:28 104 189;
+						
+						
+						--h4_fontSize:20px;
+						--h4_color:#1C68BD;
+						--h4_color_cover:28 104 189;
+						
+						--h5_fontSize:18px;
+						--h5_color:rgb(237, 247, 247);
+						--h5_color_cover:237 247 247;
+						
+						--h6_fontSize:16px;
+						--h6_color:rgb(237, 247, 247);	
+						--h6_colo_coverr:237 247 247;
+        }
+    

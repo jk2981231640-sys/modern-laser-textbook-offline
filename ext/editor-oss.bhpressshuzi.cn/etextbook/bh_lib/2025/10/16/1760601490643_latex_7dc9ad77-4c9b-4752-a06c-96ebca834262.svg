@@ -1,0 +1,14 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="7.487ex" height="2.343ex" style="vertical-align: -0.505ex;" viewBox="0 -791.3 3223.4 1008.6" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">\lambda  + \Delta \lambda </title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMATHI-3BB" d="M166 673Q166 685 183 694H202Q292 691 316 644Q322 629 373 486T474 207T524 67Q531 47 537 34T546 15T551 6T555 2T556 -2T550 -11H482Q457 3 450 18T399 152L354 277L340 262Q327 246 293 207T236 141Q211 112 174 69Q123 9 111 -1T83 -12Q47 -12 47 20Q47 37 61 52T199 187Q229 216 266 252T321 306L338 322Q338 323 288 462T234 612Q214 657 183 657Q166 657 166 673Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-394" d="M51 0Q46 4 46 7Q46 9 215 357T388 709Q391 716 416 716Q439 716 444 709Q447 705 616 357T786 7Q786 4 781 0H51ZM507 344L384 596L137 92L383 91H630Q630 93 507 344Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJMATHI-3BB" x="0" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-2B" x="805" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-394" x="1806" y="0"></use>
+ <use xlink:href="#E1-MJMATHI-3BB" x="2639" y="0"></use>
+</g>
+</svg>
