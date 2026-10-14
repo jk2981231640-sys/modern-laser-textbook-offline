@@ -1,5 +1,6 @@
 # ---- 大文件：不进仓库本体（GitHub 单文件硬上限 100MB，本 PDF 有 413MB）----
-/现代激光原理与技术.pdf
+# PDF 由 Git LFS 托管（见 .gitattributes），因此不再忽略：
+# /现代激光原理与技术.pdf
 # 如需连同 PDF 一起用 LFS 管理，请删掉上面一行并启用 .gitattributes 里的 LFS 规则
 
 # ---- 生成 PDF 时的临时/中间产物 ----

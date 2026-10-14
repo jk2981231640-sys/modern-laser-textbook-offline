@@ -1,13 +1,11 @@
 # 本仓库是对教材资源的**保真镜像**：默认不做任何换行/编码转换，
 # 保证 clone 出来的作品文件与服务器原始字节一致（含 CRLF）。
 * -text
-
 # 仓库自己编写的文件统一 UTF-8 / LF
 *.md   text eol=lf
 *.py   text eol=lf
 .gitignore     text eol=lf
 .gitattributes text eol=lf
-
 # 明确标记二进制（避免 diff/merge 尝试处理）
 *.png binary
 *.jpg binary
@@ -27,9 +25,9 @@
 *.ttf binary
 *.otf binary
 *.eot binary
-
 # ---- 可选：用 Git LFS 托管大文件（先执行 git lfs install，再取消下面注释）----
 # *.pdf  filter=lfs diff=lfs merge=lfs -text
 # *.mp4  filter=lfs diff=lfs merge=lfs -text
 # *.png  filter=lfs diff=lfs merge=lfs -text
 # *.zip  filter=lfs diff=lfs merge=lfs -text
+现代激光原理与技术.pdf filter=lfs diff=lfs merge=lfs -text
