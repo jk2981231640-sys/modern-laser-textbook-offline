@@ -23,7 +23,6 @@
 | **重跑抓取或重建 PDF** | `scripts/` — 见下文「技术记录」与「重新生成 PDF」 |
 | **看这本书的元数据 / 目录 API 原始返回** | `metadata/` — `detail.json`（内容清单）、`toc.json`、`catalog1.json`（58 章目录 + 每章文件名） |
 
-一句话：**只想读书 → 打开 PDF；想复制文字/公式 → 打开 index.html。**
 
 ---
 
@@ -84,7 +83,7 @@
 
 ## 🔧 技术记录：这些文件是怎么拿到的
 
-> 这一节是给想复现、想帮别人做同样事情的人看的。**全过程没有使用、存储或传播任何登录凭据**
+> 这一节是给想复现、想帮别人做同样事情的同学看的。**全过程没有使用、存储或传播任何登录凭据**
 > （仓库内不含 Cookie / token），也没有破解任何权限控制——下载的都是服务器上公开可访问的静态资源，
 > 请求与普通浏览器访问网页时发出的一致。
 
@@ -126,8 +125,7 @@ https://www.bhpressshuzi.cn/bhcbs/files/Resource/f3003836-2c78-a048-63f1-4ff6cff
 章节 HTML 内部再以相对路径引用素材（`Material/img/...`、`Material/svg/...`、`ext/...`），
 所以只要把「58 个章节 HTML + Material/ + ext/」按同样的目录结构存下来，就是一份完整的离线副本。
 
-### 4. 踩过的四个坑（复现时请务必注意）
-
+### 4. 踩过的四个坑
 1. **站点只支持 TLS 1.2**：部分环境用 Python `requests`/`urllib` 直连会
    `ssl.SSLV3_ALERT_HANDSHAKE_FAILURE`。解决办法是用系统 `curl`
    （`curl.exe -sSL --fail --retry 3`），或给 `ssl` 上下文显式锁到 `TLSv1_2`。
@@ -164,9 +162,9 @@ curl -sSL "https://www.bhpressshuzi.cn/dev-api/webApi/book/getBookCatalog?id=154
 ## 🎬 视频（191 个，本仓库未收录）
 
 书里共有 **191 个 mp4**（`Material/video/`，合计约 5.1 GB），**没有放进本仓库**，原因有三：
-体积占 87%、GitHub 单文件与仓库体积限制、以及视频的版权风险更高。
+体积占 87%、GitHub 单文件与仓库体积限制、视频的版权风险。
 
-它们的地址同样是免登录的静态文件。想自己下载：
+它们的地址同样是免登录的静态文件。可通过以下方式自行下载：
 
 ```bash
 python scripts/download_videos.py --dry-run     # 先看清单（191 条）
@@ -293,4 +291,5 @@ python scripts/rebuild_pdf.py        # 逐章打印 → 合并 → 加 58 条书
 
 - 北京航空航天大学出版社 · 数字教材平台（内容来源）
 - 本书作者与编者
+- 杭州深度求索人工智能基础技术研究有限公司及其旗下的DeepSeek v4.1 flash模型（技术支持）
 - 若这本书帮到了你，**请通过正规渠道购买/订阅正版**。
